@@ -18,7 +18,7 @@ Data stored on SPIFFS is automatically uploaded to the server once an internet c
 ## Hardware Setup
 The diagram below shows how to connect all sensors to the ESP32:
 
-![ESP32 Sensor Wiring](images/Picture2.png)
+![ESP32 Sensor Wiring](Images/Picture2.png)
 
 ## Web Interface
 Screenshot of the real-time sensor monitoring dashboard:
