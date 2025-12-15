@@ -1,0 +1,107 @@
+ body {
+      background-color: #151d45;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+    }
+
+    .background-circle {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      animation-duration: 6s;
+      animation-iteration-count: infinite;
+      z-index: -1;
+    }
+
+    .circle1 {
+      height: 250px;
+      width: 250px;
+      top: 50px;
+      left: 20%;
+      background: linear-gradient(to right, #8E54E9, #4776E6);
+      animation: bounce 5s linear infinite;
+    }
+
+    .circle2 {
+      height: 300px;
+      width: 300px;
+      top: 50%;
+      left: 45%;
+      background: linear-gradient(to right, #f80759, #bc4e9c);
+      animation: bounce 9s linear infinite 1s;
+    }
+
+    .circle3 {
+      top: 20%;
+      right: 22%;
+      height: 150px;
+      width: 150px;
+      background: linear-gradient(to right, #ff5e62, #ff9966);
+      animation: bounce 6.5s linear infinite 1.5s;
+    }
+
+    @keyframes bounce {
+      0% {
+        transform: translateY(0px);
+      }
+
+      25% {
+        transform: translateY(55px);
+      }
+
+      50% {
+        transform: translateY(0px);
+      }
+
+      75% {
+        transform: translateY(-55px);
+      }
+
+      100% {
+        transform: translateY(0px);
+      }
+    }
+
+    .card {
+      background-color: rgba(0, 0, 50, 0.8);
+      width: 560px;
+      padding: 20px;
+      margin: auto;
+      margin-top: 8%;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(5px);
+      text-align: center;
+      border-radius: 30px;
+    }
+    
+        
+ @media only screen and (max-width: 1080px) {
+      .card {
+        margin: 500px auto;
+      }
+
+      .circle1 {
+        top: 15%;
+        left: 6%;
+      }
+
+      .circle2 {
+        top: 50%;
+        left: 60%;
+      }
+
+      .circle3 {
+        top: 20%;
+        right: 6%;
+      }
+
+      .card {
+        margin-top: 45%;
+        width: 60%;
+        height: 50%;
+      }
+    }
