@@ -1,7 +1,7 @@
 # ESP32 Sensor Monitoring System
 
 ## Description
-This project is a comprehensive **sensor monitoring system** using **ESP32**, written in **Arduino C++** and **PHP**. It supports two Wi-Fi modes: **Station** and **Access Point (AP)**. Sensor data is dynamically stored, monitored, and managed both locally on the ESP32 and remotely on a web server with database integration.
+This project is a comprehensive **sensor monitoring system** using **ESP32**, written in **Arduino C++** and **PHP**. It supports two Wi-Fi modes: **Station** and **Access Point (AP)**, which can be toggled using a **hardware switch**. Sensor data is dynamically stored, monitored, and managed both locally on the ESP32 and remotely on a web server with database integration.
 
 In **AP mode**, data is stored locally on **SPIFFS**. Each sensor has its own file, and when the file is full, a dynamic cursor replaces old data with new entries.  
 
@@ -23,16 +23,12 @@ The diagram below shows how to connect all sensors to the ESP32:
 ## Web Interface
 Screenshot of the real-time sensor monitoring dashboard:
 
-![Web Dashboard](Images/Picture3.png)
-![Web Dashboard](Images/Picture4.png)
-![Web Dashboard](Images/Picture5.png)
-![Web Dashboard](Images/Picture6.png)
-![Web Dashboard](Images/Picture7.png)
-![Web Dashboard](Images/Picture8.png)
-
+![Web Dashboard](Images/Picture3.png)![Web Dashboard](Images/Picture4.png)
+![Web Dashboard](Images/Picture5.png)![Web Dashboard](Images/Picture6.png)
+![Web Dashboard](Images/Picture7.png)![Web Dashboard](Images/Picture8.png)
 
 ## Features
-- Dual Wi-Fi operation: **Station** or **Access Point**
+- Dual Wi-Fi operation: **Station** or **Access Point**, switchable via hardware button
 - Local storage on **ESP32 SPIFFS**
 - Automatic circular storage when files are full
 - Sensor types supported: **Temperature (DS18B20)**, **Distance (HC-SR04)**, **Air Quality (MQ-135)**, **PIR Motion**
@@ -51,6 +47,7 @@ Screenshot of the real-time sensor monitoring dashboard:
 - PIR Motion Sensor
 - SIM800 GSM Module (for SMS)
 - LEDs for status indication
+- **Hardware switch** to toggle Wi-Fi mode
 
 ## Software Requirements
 - Arduino IDE
@@ -61,4 +58,4 @@ Screenshot of the real-time sensor monitoring dashboard:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sahandfakoori/esp32-sensor-monitoring.git
+   git clone https://github.com/yourusername/esp32-sensor-monitoring.git
