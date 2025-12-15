@@ -23,12 +23,9 @@ The diagram below shows how to connect all sensors to the ESP32:
 ## Web Interface
 Screenshot of the real-time sensor monitoring dashboard:
 
-<img src="Images/Picture3.png" alt="Web Dashboard 1" width="300"/>
-<img src="Images/Picture4.png" alt="Web Dashboard 2" width="300"/>
-<img src="Images/Picture5.png" alt="Web Dashboard 3" width="300"/>
-<img src="Images/Picture6.png" alt="Web Dashboard 4" width="300"/>
-<img src="Images/Picture7.png" alt="Web Dashboard 5" width="300"/>
-<img src="Images/Picture8.png" alt="Web Dashboard 6" width="300"/>
+<img src="Images/Picture3.png" alt="Web Dashboard 1" width="300"/><img src="Images/Picture4.png" alt="Web Dashboard 2" width="300"/>
+<img src="Images/Picture5.png" alt="Web Dashboard 3" width="300"/><img src="Images/Picture6.png" alt="Web Dashboard 4" width="300"/>
+<img src="Images/Picture7.png" alt="Web Dashboard 5" width="300"/><img src="Images/Picture8.png" alt="Web Dashboard 6" width="300"/>
 
 
 ## Features
