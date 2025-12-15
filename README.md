@@ -18,14 +18,18 @@ Data stored on SPIFFS is automatically uploaded to the server once an internet c
 ## Hardware Setup
 The diagram below shows how to connect all sensors to the ESP32:
 
-![ESP32 Sensor Wiring](Images/Picture2.png)
+<img src="Images/Picture2.png" alt="ESP32 Sensor Wiring" width="400"/>
 
 ## Web Interface
 Screenshot of the real-time sensor monitoring dashboard:
 
-![Web Dashboard](Images/Picture3.png)![Web Dashboard](Images/Picture4.png)
-![Web Dashboard](Images/Picture5.png)![Web Dashboard](Images/Picture6.png)
-![Web Dashboard](Images/Picture7.png)![Web Dashboard](Images/Picture8.png)
+<img src="Images/Picture3.png" alt="Web Dashboard 1" width="300"/>
+<img src="Images/Picture4.png" alt="Web Dashboard 2" width="300"/>
+<img src="Images/Picture5.png" alt="Web Dashboard 3" width="300"/>
+<img src="Images/Picture6.png" alt="Web Dashboard 4" width="300"/>
+<img src="Images/Picture7.png" alt="Web Dashboard 5" width="300"/>
+<img src="Images/Picture8.png" alt="Web Dashboard 6" width="300"/>
+
 
 ## Features
 - Dual Wi-Fi operation: **Station** or **Access Point**, switchable via hardware button
