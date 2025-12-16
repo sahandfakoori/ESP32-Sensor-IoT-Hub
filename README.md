@@ -59,4 +59,4 @@ Screenshot of the real-time sensor monitoring dashboard:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/esp32-sensor-monitoring.git
+   git clone https://github.com/sahandfakoori/esp32-sensor-monitoring.git
